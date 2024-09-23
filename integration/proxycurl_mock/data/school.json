@@ -1,0 +1,58 @@
+{
+  "affiliated_companies": [],
+  "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/national-university-of-singapore/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=0004d7f56a0400b0000000001%2F20230119%2Fus-west-000%2Fs3%2Faws4_request\u0026X-Amz-Date=20230119T071304Z\u0026X-Amz-Expires=3600\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=551f456b6156e4610bc3e7be43e2f9b0e4b071db5f41f56cc0e408fc1b5a1140",
+  "company_size": [
+    5001,
+    10000
+  ],
+  "company_size_on_linkedin": 16084,
+  "company_type": "EDUCATIONAL_INSTITUTION",
+  "description": "At NUS, we are shaping the future through our people and our pursuit of new frontiers in knowledge. In a single century, we have become a university of global influence and an Asian thought leader. Our location at the crossroads of Asia informs our mission and gives us a tremendous vantage point to help create opportunities and address the pressing issues facing Singapore, Asia and the world.\r\rAt NUS, we believe in education, research and service that change lives.",
+  "follower_count": 539321,
+  "founded_year": 1905,
+  "hq": {
+    "city": "Singapore",
+    "country": "SG",
+    "is_hq": true,
+    "line_1": "21 Lower Kent Ridge Road, Singapore",
+    "postal_code": "119077",
+    "state": null
+  },
+  "industry": "Higher Education",
+  "linkedin_internal_id": "5524",
+  "locations": [
+    {
+      "city": "Singapore",
+      "country": "SG",
+      "is_hq": true,
+      "line_1": "21 Lower Kent Ridge Road, Singapore",
+      "postal_code": "119077",
+      "state": null
+    }
+  ],
+  "name": "National University of Singapore",
+  "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/national-university-of-singapore/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=0004d7f56a0400b0000000001%2F20230119%2Fus-west-000%2Fs3%2Faws4_request\u0026X-Amz-Date=20230119T071304Z\u0026X-Amz-Expires=3600\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=a66e032f168972bef4ea3821705194ea1c144415a1655bdb328f961ed30e2a24",
+  "search_id": "5524",
+  "similar_companies": [
+    {
+      "industry": "Higher Education",
+      "link": "https://www.linkedin.com/school/nus-business-school/",
+      "location": null,
+      "name": "NUS Business School"
+    },
+    {
+      "industry": "Higher Education",
+      "link": "https://www.linkedin.com/school/nusfass/",
+      "location": null,
+      "name": "NUS Faculty of Arts and Social Sciences"
+    }
+  ],
+  "specialities": [
+    "education",
+    "research"
+  ],
+  "tagline": null,
+  "universal_name_id": "national-university-of-singapore",
+  "updates": [],
+  "website": "http://nus.edu.sg"
+}
