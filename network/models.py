@@ -19,6 +19,7 @@ class Company(models.Model):
     industry = models.CharField(max_length=127, null=True)
     location = models.CharField(max_length=127, null=True)
 
+
 class School(models.Model):
     linkedin_url = models.URLField()
     name = models.CharField(max_length=127)
@@ -46,3 +47,11 @@ class Group(models.Model):
     linkedin_url = models.URLField()
     name = models.CharField(max_length=127)
     profile_picture_url = models.URLField(null=True)
+
+
+class Network(models.Model):
+    slug = models.SlugField(unique=True)
+    email = models.EmailField(unique=True)
+    persons = models.ManyToManyField(Person, related_name='networks')
+    companies = models.ManyToManyField(Company, related_name='networks')
+    schools = models.ManyToManyField(School, related_name='networks')

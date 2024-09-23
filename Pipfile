@@ -9,6 +9,7 @@ djangorestframework = "*"
 loguru = "*"
 drf-nested-routers = "*"
 attrs = "*"
+hrid = "*"
 
 [dev-packages]
 django-debug-toolbar = "*"
