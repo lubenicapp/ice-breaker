@@ -4,9 +4,9 @@ import json
 app = Flask(__name__)
 
 # Route for /profile
-@app.route('/api/linkedin/profile', methods=['GET'])
+@app.route('/api/v2/linkedin', methods=['GET'])
 def get_profile():
-    with open('./data/profile.json', 'r') as f:
+    with open('data/emeline.json', 'r') as f:
         profile_data = json.load(f)
     return jsonify(profile_data)
 

@@ -1,101 +1,258 @@
 {
-  "employees": [
+  "public_identifier": "eug\u00e9nie-khayat-535085191",
+  "profile_pic_url": "https://media.licdn.com/dms/image/v2/D4E35AQE-9sbI328OKg/profile-framedphoto-shrink_100_100/profile-framedphoto-shrink_100_100/0/1713689336245?e=1727740800&v=beta&t=uQx5bVi90bP0J9E2GFpdY5B8Nepb0n3CfEJwOcU1bg4",
+  "background_cover_image_url": "https://media.licdn.com/dms/image/v2/D4E16AQHCSTkaiRXo_Q/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1683020123446?e=1732752000&v=beta&t=lV7UHf-g2YvCn1nBOuMpO0i1rn_A3VMFP1rPZt6vvQA",
+  "first_name": "Eug\u00e9nie",
+  "last_name": "Khayat",
+  "full_name": "Eug\u00e9nie Khayat",
+  "follower_count": 1080,
+  "occupation": "D\u00e9veloppeuse Fullstack at Nexity",
+  "headline": "D\u00e9veloppeuse Fullstack Symfony / VueJS",
+  "summary": "Les multiples activit\u00e9s que j'ai entrepris tout au long de mon parcours ont renforc\u00e9 mon esprit d'analyse, ma volont\u00e9 d'implication et mon go\u00fbt pour les challenges.",
+  "country": "FR",
+  "country_full_name": "France",
+  "city": "Greater Paris Metropolitan Region",
+  "state": null,
+  "experiences": [
     {
-      "last_updated": "2023-10-26T11:34:30Z",
-      "profile": {
-        "accomplishment_courses": [],
-        "accomplishment_honors_awards": [],
-        "accomplishment_organisations": [],
-        "accomplishment_patents": [],
-        "accomplishment_projects": [],
-        "accomplishment_publications": [],
-        "accomplishment_test_scores": [],
-        "activities": [],
-        "articles": [],
-        "background_cover_image_url": null,
-        "certifications": [],
-        "city": "Seattle",
-        "connections": null,
-        "country": "US",
-        "country_full_name": "United States of America",
-        "education": [
-          {
-            "degree_name": null,
-            "description": null,
-            "ends_at": {
-              "day": 31,
-              "month": 12,
-              "year": 1975
-            },
-            "field_of_study": null,
-            "logo_url": "https://media-exp1.licdn.com/dms/image/C4E0BAQF5t62bcL0e9g/company-logo_400_400/0/1519855919126?e=1672876800\u0026v=beta\u0026t=9twXof1JlnNHfFprrDMi-C1Kp55HTT4ahINKHRflUHw",
-            "school": "Harvard University",
-            "school_linkedin_profile_url": null,
-            "starts_at": {
-              "day": 1,
-              "month": 1,
-              "year": 1973
-            }
-          },
-          {
-            "degree_name": null,
-            "description": null,
-            "ends_at": null,
-            "field_of_study": null,
-            "logo_url": "https://media-exp1.licdn.com/dms/image/C4D0BAQENlfOPKBEk3Q/company-logo_400_400/0/1519856497259?e=1672876800\u0026v=beta\u0026t=v7nJTPaJMfH7WOBjb22dyvNKxAgdPdVd8uLCUkMB1LQ",
-            "school": "Lakeside School",
-            "school_linkedin_profile_url": null,
-            "starts_at": null
-          }
-        ],
-        "experiences": [
-          {
-            "company": "Breakthrough Energy ",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/breakthrough-energy/",
-            "description": null,
-            "ends_at": null,
-            "location": null,
-            "logo_url": "https://media-exp1.licdn.com/dms/image/C4D0BAQGwD9vNu044FA/company-logo_400_400/0/1601560874941?e=1672876800\u0026v=beta\u0026t=VKb6OAHEwlnazKYKm4fc9go-y4zkUv2BT6tosOdQ54Y",
-            "starts_at": {
-              "day": 1,
-              "month": 1,
-              "year": 2015
-            },
-            "title": "Founder"
-          },
-          {
-            "company": "Bill \u0026 Melinda Gates Foundation",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/bill-\u0026-melinda-gates-foundation/",
-            "description": null,
-            "ends_at": null,
-            "location": null,
-            "logo_url": "https://media-exp1.licdn.com/dms/image/C4E0BAQE7Na_mKQhIJg/company-logo_400_400/0/1633731810932?e=1672876800\u0026v=beta\u0026t=Mz_ntwD4meCMcgo1L3JqDxBQRabFLIesd0Yz2ciAXNs",
-            "starts_at": {
-              "day": 1,
-              "month": 1,
-              "year": 2000
-            },
-            "title": "Co-chair"
-          }
-        ],
-        "first_name": "Bill",
-        "full_name": "Bill Gates",
-        "groups": [],
-        "headline": "Co-chair, Bill \u0026 Melinda Gates Foundation",
-        "languages": [],
-        "last_name": "Gates",
-        "occupation": "Co-chair at Bill \u0026 Melinda Gates Foundation",
-        "people_also_viewed": [],
-        "profile_pic_url": "https://media.licdn.com/dms/image/C5616AQH9tkBTUhHfng/profile-displaybackgroundimage-shrink_200_800/0/1614530499015?e=2147483647\u0026v=beta\u0026t=VEoCyedtZulnAVYWT9BXfKHi5OFp8avElNjiz8kjSTU",
-        "public_identifier": "williamhgates",
-        "recommendations": [],
-        "similarly_named_profiles": [],
-        "state": "Washington",
-        "summary": "Co-chair of the Bill \u0026 Melinda Gates Foundation. Founder of Breakthrough Energy. Co-founder of Microsoft. Voracious reader. Avid traveler. Active blogger.",
-        "volunteer_work": []
+      "starts_at": {
+        "day": 1,
+        "month": 1,
+        "year": 2023
       },
-      "profile_url": "https://www.linkedin.com/in/satyanadella"
+      "ends_at": null,
+      "company": "Nexity",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/nexity",
+      "company_facebook_profile_url": null,
+      "title": "D\u00e9veloppeuse Fullstack",
+      "description": "_______D\u00e9veloppement du site Nexity.fr_______\n\n\n VueJS / NuxtJS / Phpstorm / StoryBook / Tracking\n\n\u2192 D\u00e9veloppement des blocs FAQ agences immobili\u00e8res\n\u2192 D\u00e9veloppement du tracking des autopromos dans guide immobilier\n\u2192 Configuration de la Survey front pour la relier au backoffice via l'API\n\nSymfony / Sulu / Docker / Mutagen / Phpstorm / Mysql / PhpMyAdmin / Doctrine / Tracking\n\n\u2192 D\u00e9veloppement du tracking des autopromos dans guide immobiliers\n\u2192 D\u00e9veloppement d'outils dans le back-office Sulu avec requ\u00eates SQL et configuration de fichiers .XML\n\u2192 D\u00e9veloppement d'outils administrable dans Sulu (tels que les Dossiers Locataires D\u00e9pos\u00e9s et la Survey)\n\u2192 Cr\u00e9ation d'API pour faire communiquer la Survey back avec la Survey front\n\u2192 Import et backup de base de donn\u00e9es\n\u2192 Journalisation des logs avec monolog\n\u2192 Cr\u00e9ation d'API\n\nM\u00e9thode Agile / Scrum / Gitlab",
+      "location": "Ville de Paris, \u00cele-de-France, France",
+      "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/nexity/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240923%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240923T230351Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=7d702537505bc9a88da7187b4a275c438373c701db7cf4f313145e9e8e5c7f74"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 12,
+        "year": 2021
+      },
+      "ends_at": {
+        "day": 30,
+        "month": 11,
+        "year": 2022
+      },
+      "company": "Aduneo",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/aduneo",
+      "company_facebook_profile_url": null,
+      "title": "D\u00e9veloppeuse Fullstack",
+      "description": "\u2192 D\u00e9veloppement des applications NeoPage & NeoView ( HTML5 / SASS / Angular )\n\u2192 Cr\u00e9ation de regex\n\u2192 D\u00e9veloppement du site Aduneo ( Wordpress )\n\u2192 Revue du ratio des \u00e9cran de l'application NeoPage (SASS)\n\u2192 Normalisation de l'application NeoPage (SASS)\n\u2192 Cr\u00e9ation de maquette (Figma)\n\u2192 R\u00e9alisation de la charte graphique Aduneo\n\u2192 Documentation de la charte graphique Aduneo (powerpoint & markdown)",
+      "location": "Malakoff, \u00cele-de-France, France",
+      "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/aduneo/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240923%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240923T230351Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=d7f79ae54b8c170a9bdb30a5dd3747b819210611b68b0a0d06223c04118fa1d9"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 3,
+        "year": 2021
+      },
+      "ends_at": {
+        "day": 30,
+        "month": 9,
+        "year": 2021
+      },
+      "company": "LES EXPERTS DU VOYAGE",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/les-experts-du-voyage",
+      "company_facebook_profile_url": null,
+      "title": "D\u00e9veloppeuse Fullstack",
+      "description": "\u2192 Refonte graphique du site lafranceenvacances.fr (HTML5, CSS3, Bootstrap, JQuery)\n\u2192 Elaboration des tunnels de ventes (HTML5, CSS3, Bootstrap, JQuery)\n\u2192 Elaboration des newsletters (HTML5, CSS3, Php7, MySql)",
+      "location": "Nice, Provence-Alpes-C\u00f4te d\u2019Azur, France",
+      "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQEgP5XSagEqVw/company-logo_400_400/company-logo_400_400/0/1630603655633/les_experts_du_voyage_logo?e=1735171200&v=beta&t=IiRqUb-9C05diY-gTN4bBcPpEY25N4--iq3hfRwHTHw"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 3,
+        "year": 2020
+      },
+      "ends_at": {
+        "day": 31,
+        "month": 5,
+        "year": 2020
+      },
+      "company": "OG Nettoyage",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/77681974/",
+      "company_facebook_profile_url": null,
+      "title": "D\u00e9veloppeuse Front-end",
+      "description": "\u2192 Cr\u00e9ation de site web pour rebooster l activit\u00e9 de la soci\u00e9t\u00e9\n\u2192 Conception du logo\n\u2192 Campagne Google Ad\n\u2192 Cr\u00e9ation fiche Google My Business\n\u2192 Referencement naturel SEO\n\u2192 Cr\u00e9ation de flyers et de carte de visite\n\u2192 Campagne publicitaire et d e-mailing",
+      "location": "Thiais",
+      "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQFy17CV8mFupA/company-logo_400_400/company-logo_400_400/0/1638804022765?e=1735171200&v=beta&t=U3ocWxV-ylZif2FM8S-q98r6uKk1W13laRVmvPoVYFA"
     }
   ],
-  "next_page": null
+  "education": [
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 12,
+        "year": 2022
+      },
+      "ends_at": {
+        "day": 30,
+        "month": 11,
+        "year": 2024
+      },
+      "field_of_study": "Mast\u00e8re Dev Data & IA",
+      "degree_name": "Expert en Informatique et Syst\u00e8mes d'Information",
+      "school": "IPSSI",
+      "school_linkedin_profile_url": "https://www.linkedin.com/company/5897822/",
+      "school_facebook_profile_url": null,
+      "description": "D\u00e9veloppement & Big data : \n\u2192 React Native & React JS\n\u2192 Python & POO\n\u2192 Python & APIs Python\n\u2192 AngularJS, Grunt, CoffeeScript\n\u2192 MERN stack \u2013 MongoDB, Express, React, Node.js\n\u2192 Django RESTful & AWS\n\u2192 Postgres SQL\n\u2192 MariaDB Server\n\u2192 Docker et Kubernetes\n\u2192 Gitlab\n\u2192 Architecture n\u2019 tiers\n\u2192 J2EE D\u00e9ploimeent d\u2019application\n\u2192 D\u00e9veloppement MVC\n\u2192 ATAWAD et BYOD\n\u2192 NoSQL\n\nData science & IA :\n\u2192 Open Data & Open Source Intelligence\n\u2192 Web scraping et transf\u00e8re SQL, NoSQL\n\u2192 D\u00e9veloppement R et statistiques\n\u2192 Gouvernance et S\u00e9curit\u00e9 data\n\u2192 Haddop et MapReduce\n\u2192 AWS \u2013 Amazon Web Services\n\u2192 Spark et charts\n\u2192 Intelligence \u00e9conomique & veille strat\u00e9gique\n\u2192 Architecture Big data\n\u2192 Machine learning\n\u2192 Deep learning\n\u2192 Architectures de r\u00e9seaux de neurones (CNN, RNN, GAN)\n\u2192 Pr\u00e9paration TOEIC",
+      "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/ipssi/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240923%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240923T230352Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=2b1a867bc973bd008c5390194cad478313dc0566fce9212ff6874b808f813c5b",
+      "grade": null,
+      "activities_and_societies": null
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 11,
+        "year": 2021
+      },
+      "ends_at": {
+        "day": 31,
+        "month": 10,
+        "year": 2022
+      },
+      "field_of_study": "Bachelor D\u00e9veloppeur Fullstack & DevOps",
+      "degree_name": "Administrateur de syst\u00e8mes d'informations",
+      "school": "IPSSI",
+      "school_linkedin_profile_url": "https://www.linkedin.com/company/5897822/",
+      "school_facebook_profile_url": null,
+      "description": "\u2192 POO avec PHP 7 et 8\n\u2192 JavaScript \u2013 ECMA 6 / NodeJS / ExpressJS\n\u2192 Next.js initiation\n\u2192 Symfony 6 et PHP avanc\u00e9\n\u2192 API REST\n\u2192 MySql / Doctrine / MongoDB\n\u2192 Docker / VirtualHost\n\u2192 Heroku, Gitlab et CI/CD\n\u2192 Mongoose \u2013 MongoDB & CRUD syst\u00e8mes\n\u2192 Git / GitHub\n\u2192 Gestion de projet AGILE et SCRUM",
+      "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/ipssi/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240923%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240923T230352Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=2b1a867bc973bd008c5390194cad478313dc0566fce9212ff6874b808f813c5b",
+      "grade": null,
+      "activities_and_societies": null
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 11,
+        "year": 2020
+      },
+      "ends_at": {
+        "day": 30,
+        "month": 9,
+        "year": 2021
+      },
+      "field_of_study": "Developpeuse Web et Web Mobile - D\u00e9veloppement et techniques d'int\u00e9gration web ",
+      "degree_name": "Certification professionnelle CNCP et RNCP",
+      "school": "WebForce3",
+      "school_linkedin_profile_url": "https://www.linkedin.com/company/10061414/",
+      "school_facebook_profile_url": null,
+      "description": "\u2192 HTML5 / CSS3\n\u2192 Bootstrap / Bulma\n\u2192 Wordpress\n\u2192 JavaScript / JQuery / Angular\n\u2192 PHP7 / POO / Symfony\n\u2192 MySql / Doctrine\n\u2192 Git / GitHub",
+      "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/webforce3/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240923%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240923T230359Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=12fe3c999938043e54aa1de0c8d92f01c8a54959ee29af2c1b0013f58b6e51e2",
+      "grade": null,
+      "activities_and_societies": null
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 9,
+        "year": 2020
+      },
+      "ends_at": {
+        "day": 31,
+        "month": 10,
+        "year": 2020
+      },
+      "field_of_study": "D\u00e9veloppeur web",
+      "degree_name": "Certificat d'aptitude professionnelle",
+      "school": "INCO Academy",
+      "school_linkedin_profile_url": "https://www.linkedin.com/company/70450533/",
+      "school_facebook_profile_url": null,
+      "description": "\u2192 HTML5 / CSS3\n\u2192 Bootstrap\n\u2192 Wordpress\n\u2192 SEO",
+      "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/inco-academy/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240923%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240923T230352Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=1a74fe3983810124ca35617379c29b8081ca06d56b6f37d54bcfa2dabcd3a84c",
+      "grade": null,
+      "activities_and_societies": null
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 11,
+        "year": 2019
+      },
+      "ends_at": {
+        "day": 30,
+        "month": 11,
+        "year": 2019
+      },
+      "field_of_study": "D\u00e9veloppeur / Int\u00e9grateur web",
+      "degree_name": "Certificat d'aptitude professionnelle",
+      "school": "Web@cad\u00e9mie by Epitech",
+      "school_linkedin_profile_url": "https://www.linkedin.com/company/11210826/",
+      "school_facebook_profile_url": null,
+      "description": "\u2192 HTML5 / CSS3\n\u2192 Bootstrap\n\u2192 PHP7 / POO\n\u2192 Shell / Bash\n\u2192 Linux\n\u2192 Git / GitHub",
+      "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/webacademie/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240923%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240923T230359Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=8492f9f7102a86c4ffce6abfd08b36d1ffa06d704afa6038a2a6148c7748a399",
+      "grade": null,
+      "activities_and_societies": null
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 9,
+        "year": 2011
+      },
+      "ends_at": {
+        "day": 30,
+        "month": 6,
+        "year": 2013
+      },
+      "field_of_study": null,
+      "degree_name": "Baccalaur\u00e9at litt\u00e9raire",
+      "school": "Lyc\u00e9e Guillaume Apollinaire",
+      "school_linkedin_profile_url": null,
+      "school_facebook_profile_url": null,
+      "description": null,
+      "logo_url": null,
+      "grade": null,
+      "activities_and_societies": null
+    }
+  ],
+  "languages": [],
+  "accomplishment_organisations": [],
+  "accomplishment_publications": [],
+  "accomplishment_honors_awards": [],
+  "accomplishment_patents": [],
+  "accomplishment_courses": [],
+  "accomplishment_projects": [],
+  "accomplishment_test_scores": [],
+  "volunteer_work": [],
+  "certifications": [],
+  "connections": 1087,
+  "people_also_viewed": [],
+  "recommendations": [],
+  "activities": [],
+  "similarly_named_profiles": [],
+  "articles": [],
+  "groups": [
+    {
+      "profile_pic_url": "https://media.licdn.com/dms/image/v2/D4D07AQEDHqg8XIOT9A/group-logo_image-shrink_400x400/group-logo_image-shrink_400x400/0/1676384798641?e=1727740800&v=beta&t=M45nmt31_cjfWPHscOW62deGVDh1FJYttD3IFVC8FlM",
+      "name": "WebForce3 alumni",
+      "url": "https://www.linkedin.com/groups/9298939"
+    },
+    {
+      "profile_pic_url": "https://media.licdn.com/dms/image/v2/C4D07AQF_0UEuZO15SA/group-logo_image-shrink_48x48/group-logo_image-shrink_48x48/0/1631375030464?e=1727740800&v=beta&t=uvCjBCW29GoDRyQtt-bwxj654eCjwDxrZCilEm-n2co",
+      "name": "D\u00e9veloppeur PHP",
+      "url": "https://www.linkedin.com/groups/3193941"
+    }
+  ],
+  "skills": [
+    "PHP",
+    "JavaScript"
+  ],
+  "inferred_salary": null,
+  "gender": null,
+  "birth_date": null,
+  "industry": null,
+  "extra": null,
+  "interests": [],
+  "personal_emails": [],
+  "personal_numbers": []
 }
