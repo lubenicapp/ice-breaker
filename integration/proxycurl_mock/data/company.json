@@ -1,0 +1,98 @@
+{
+  "affiliated_companies": [
+    {
+      "industry": "Software Development",
+      "link": "https://www.linkedin.com/company/youtube",
+      "location": "San Bruno, CA",
+      "name": "YouTube"
+    },
+    {
+      "industry": "Software Development",
+      "link": "https://www.linkedin.com/showcase/google-cloud",
+      "location": "Mountain View, California",
+      "name": "Google Cloud"
+    }
+  ],
+  "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/google/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=0004d7f56a0400b0000000001%2F20230119%2Fus-west-000%2Fs3%2Faws4_request\u0026X-Amz-Date=20230119T060024Z\u0026X-Amz-Expires=3600\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=abb7a4b87583cffda8db24d58d906c644998fae8cbb99e98c69a35720fcd0050",
+  "company_size": [
+    10001,
+    null
+  ],
+  "company_size_on_linkedin": 319856,
+  "company_type": "PUBLIC_COMPANY",
+  "description": "A problem isn\u0027t truly solved until it\u0027s solved for all. Googlers build products that help create opportunities for everyone, whether down the street or across the globe. Bring your insight, imagination and a healthy disregard for the impossible. Bring everything that makes you unique. Together, we can build for everyone.\n\nCheck out our career opportunities at careers.google.com.",
+  "follower_count": 27472792,
+  "founded_year": null,
+  "hq": {
+    "city": "Mountain View",
+    "country": "US",
+    "is_hq": true,
+    "line_1": "1600 Amphitheatre Parkway",
+    "postal_code": "94043",
+    "state": "CA"
+  },
+  "industry": "Software Development",
+  "linkedin_internal_id": "1441",
+  "locations": [
+    {
+      "city": "Mountain View",
+      "country": "US",
+      "is_hq": true,
+      "line_1": "1600 Amphitheatre Parkway",
+      "postal_code": "94043",
+      "state": "CA"
+    },
+    {
+      "city": "New York",
+      "country": "US",
+      "is_hq": false,
+      "line_1": "111 8th Ave",
+      "postal_code": "10011",
+      "state": "NY"
+    }
+  ],
+  "name": "Google",
+  "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/google/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=0004d7f56a0400b0000000001%2F20230119%2Fus-west-000%2Fs3%2Faws4_request\u0026X-Amz-Date=20230119T060024Z\u0026X-Amz-Expires=3600\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=0d3500b39da8db1d2d8f5727a9ac39a7c4a88b4632ed68209dee12f06bc79aca",
+  "search_id": "1441",
+  "similar_companies": [
+    {
+      "industry": "Software Development",
+      "link": "https://www.linkedin.com/company/amazon",
+      "location": "Seattle, WA",
+      "name": "Amazon"
+    },
+    {
+      "industry": "Software Development",
+      "link": "https://www.linkedin.com/company/microsoft",
+      "location": "Redmond, Washington",
+      "name": "Microsoft"
+    }
+  ],
+  "specialities": [
+    "search",
+    "ads"
+  ],
+  "tagline": null,
+  "universal_name_id": "google",
+  "updates": [
+    {
+      "article_link": null,
+      "image": "https://media.licdn.com/dms/image/C5605AQFthnjiTD6Mvg/videocover-high/0/1660754102856?e=2147483647\u0026v=beta\u0026t=PPOsA9J3vCTXWhuZclqSBQl7DLSDLvy5hKWlkHI85YE",
+      "posted_on": {
+        "day": 13,
+        "month": 9,
+        "year": 2022
+      },
+      "text": "Want to kick start your #LifeAtGoogle but not sure where to begin? Explore our Build Your Future site, where you can learn about developmental programs, learn tips for future interviews, sign up for informational events, and even hear real stories from Googlers who\u2019ve been where you are now. Get started \u2192 https://bit.ly/3SKPzQB",
+      "total_likes": 4267
+    },
+    {
+      "article_link": null,
+      "image": "https://media.licdn.com/dms/image/C4D22AQGcvTlKRR3qvQ/feedshare-shrink_2048_1536/0/1672854668558?e=1676505600\u0026v=beta\u0026t=whRRx9ULPEuyw_FgUg4Z3N3O9iksyJW7ewCGZA6ujdg",
+      "posted_on": null,
+      "text": "Ariana, welcome to Google. Here\u2019s to a year full of growth, learning, and experiences at #LifeAtGoogle! \ud83c\udf89",
+      "total_likes": 397
+    }
+  ],
+  "website": "https://goo.gle/3m1IN7m"
+}
