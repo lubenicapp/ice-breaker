@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+loguru = "*"
+drf-nested-routers = "*"
+
+[dev-packages]
+django-debug-toolbar = "*"
+behave = "*"
+blue = "*"
+mypy = "*"
+freezegun = "*"
+pytest-cov = "*"
+pytest-django = "*"
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.3"
