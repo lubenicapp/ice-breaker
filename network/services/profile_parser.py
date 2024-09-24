@@ -1,7 +1,41 @@
 from typing import List
+from network.models import Person, Company, School, WorkExperience, EducationExperience
 
 
 class ProfileParser:
+    @classmethod
+    def ingest_profile_data(cls, data: dict):
+        extracted_profile = cls.extract_profile(data)
+        p = cls.__build_person(extracted_profile)
+
+        work_experiences = cls.extract_work_experiences(data)
+        cls.__build_work_experiences(work_experiences, p)
+
+
+    @staticmethod
+    def __build_person(data):
+        p, _ = Person.objects.update_or_create(
+            linkedin_identifier=data['linkedin_identifier'],
+            defaults={**data},
+        )
+        return p
+
+    @staticmethod
+    def __build_work_experiences(work_experiences, person):
+        for work_experience in work_experiences:
+            company, _ = Company.objects.update_or_create(
+                linkedin_url=work_experience['company']['linkedin_url'],
+                defaults={'name':work_experience['company']['name']},
+            )
+            w = WorkExperience(
+                person=person,
+                company=company,
+                title=work_experience['title'],
+                start_year=work_experience['start_year'],
+                end_year=work_experience['end_year'],
+            )
+            w.save()
+
     @classmethod
     def extract_profile(cls, data: dict) -> dict:
         return {
