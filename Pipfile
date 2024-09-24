@@ -10,6 +10,8 @@ loguru = "*"
 drf-nested-routers = "*"
 attrs = "*"
 hrid = "*"
+python-decouple = "*"
+requests = "*"
 
 [dev-packages]
 django-debug-toolbar = "*"

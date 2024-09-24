@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
+from decouple import config
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -143,3 +144,7 @@ DEFAULT_FROM_EMAIL = 'from@bla.com'
 ADMINS = [
     ('joe', 'joe@bla.com')
 ]
+
+
+PROXYCURL_API_ENDPOINT=config('PROXYCURL_API_ENDPOINT')
+PROXYCURL_API_KEY=config('PROXYCURL_API_KEY')

@@ -8,6 +8,8 @@ from rest_framework.viewsets import GenericViewSet
 from network.models import Network, Person
 from network.serializers import NetworkCreateSerializer, PersonRetrieveListSerializer
 
+from linkedin_scraper import LinkedinScraper
+from network.services.profile_parser import ProfileParser
 
 class NetworkViewSet(CreateModelMixin, GenericViewSet):
     queryset = Network.objects.all()
@@ -31,7 +33,15 @@ def person_view(request):
         if not linkedin_identifier:
             return Response({'error': 'linkedin_identifier is required'}, status=status.HTTP_400_BAD_REQUEST)
 
-        person, _ = Person.objects.get_or_create(linkedin_identifier=linkedin_identifier)
+        # keeps "joe" from https://www.linkedin.com/in/joe?tracker_id=1555
+        identifier_from_url = linkedin_identifier.strip('/').split('/')[-1].split('?')[0]
+
+        person = Person.objects.filter(linkedin_identifier=identifier_from_url).first()
+        if not person:
+            ProfileParser.ingest_profile_data(
+                LinkedinScraper.get_profile(f'https://www.linkedin.com/in/{identifier_from_url}')
+            )
+            person = Person.objects.filter(linkedin_identifier=identifier_from_url).first()
         person.networks.add(network)
         person.save()
         serializer = PersonRetrieveListSerializer(person)
