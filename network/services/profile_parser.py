@@ -4,7 +4,7 @@ from network.models import Person, Company, School, WorkExperience, EducationExp
 
 class ProfileParser:
     @classmethod
-    def ingest_profile_data(cls, data: dict):
+    def ingest_profile_data(cls, data: dict) -> Person:
         extracted_profile = cls.extract_profile(data)
         p = cls.__build_person(extracted_profile)
 
@@ -13,9 +13,10 @@ class ProfileParser:
 
         education_history = cls.extract_education_history(data)
         cls.__build_education_history(education_history, p)
+        return p
 
     @staticmethod
-    def __build_person(data):
+    def __build_person(data) -> Person:
         p, _ = Person.objects.update_or_create(
             linkedin_identifier=data['linkedin_identifier'],
             defaults={**data},
@@ -25,8 +26,12 @@ class ProfileParser:
     @staticmethod
     def __build_work_experiences(work_experiences, person):
         for work_experience in work_experiences:
+            company_url = work_experience['company']['linkedin_url']
+            if not company_url:
+                continue
+
             company, _ = Company.objects.update_or_create(
-                linkedin_url=work_experience['company']['linkedin_url'],
+                linkedin_url=company_url,
                 defaults={'name':work_experience['company']['name']},
             )
             w = WorkExperience(
@@ -41,8 +46,12 @@ class ProfileParser:
     @staticmethod
     def __build_education_history(education_history, person):
         for education in education_history:
+            school_url = education['school']['linkedin_url']
+            if not school_url:
+                continue
+
             school, _ = School.objects.get_or_create(
-                linkedin_url=education['school']['linkedin_url'],
+                linkedin_url=school_url,
                 name=education['school']['name'],
             )
             e = EducationExperience(

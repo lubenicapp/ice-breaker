@@ -10,7 +10,7 @@ class NetworkCreateSerializer(serializers.ModelSerializer):
 class PersonRetrieveListSerializer(serializers.ModelSerializer):
     class Meta:
         model = Person
-        fields = ['linkedin_identifier', 'first_name', 'last_name', 'profile_picture_url']
+        fields = ['linkedin_identifier', 'first_name', 'last_name', 'profile_picture_url', 'skills']
 
 class PersonCreateSerializer(serializers.ModelSerializer):
     class Meta:

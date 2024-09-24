@@ -30,16 +30,16 @@ class School(models.Model):
 
 
 class WorkExperience(models.Model):
-    person = models.ForeignKey(Person, on_delete=models.CASCADE)
-    company = models.ForeignKey(Company, on_delete=models.CASCADE)
+    person = models.ForeignKey(Person, on_delete=models.CASCADE, related_name='work_experiences')
+    company = models.ForeignKey(Company, on_delete=models.CASCADE, related_name='work_experiences')
     title = models.CharField(max_length=127)
     start_year = models.PositiveSmallIntegerField(null=True)
     end_year = models.PositiveSmallIntegerField(null=True)
 
 
 class EducationExperience(models.Model):
-    person = models.ForeignKey(Person, on_delete=models.CASCADE)
-    school = models.ForeignKey(School, on_delete=models.CASCADE)
+    person = models.ForeignKey(Person, on_delete=models.CASCADE, related_name='education_experiences')
+    school = models.ForeignKey(School, on_delete=models.CASCADE, related_name='education_experiences')
     field_of_study = models.CharField(max_length=127, null=True)
     start_year = models.PositiveSmallIntegerField(null=True)
     end_year = models.PositiveSmallIntegerField(null=True)

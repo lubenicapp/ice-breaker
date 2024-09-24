@@ -1,4 +1,8 @@
+from datetime import datetime
+import json
+
 import requests
+
 from django.conf import settings
 
 
@@ -13,4 +17,10 @@ class LinkedinScraper:
             headers=cls.HEADERS,
             params={'linkedin_profile_url': linkedin_url}
         )
+        cls.save_data(response.json(), linkedin_url.strip('/').split('/')[-1].split('?')[0])
         return response.json()
+
+    @staticmethod
+    def save_data(data, slug):
+        with open(f'dump/{slug}-{datetime.now().second}.json', 'w') as f:
+            json.dump(data, f, indent=4)
