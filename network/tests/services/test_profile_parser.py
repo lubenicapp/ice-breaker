@@ -110,6 +110,7 @@ class TestIngestProfileData:
 
         ProfileParser.ingest_profile_data(PROFILE)
         p = Person.objects.all()[0]
+
         assert p.first_name == 'Eugénie'
 
     @pytest.mark.django_db
@@ -128,6 +129,17 @@ class TestIngestProfileData:
         assert company.name == 'Aduneo'
 
     @pytest.mark.django_db
-    def test_create_work_experiences(self, clear_database):
+    def test_creates_work_experiences(self, clear_database):
         ProfileParser.ingest_profile_data(PROFILE)
         assert len(WorkExperience.objects.all()) == 4
+
+
+    @pytest.mark.django_db
+    def test_creates_schools(self, clear_database):
+        ProfileParser.ingest_profile_data(PROFILE)
+        assert len(School.objects.all()) == 5
+
+    @pytest.mark.django_db
+    def test_creates_education_experiences(self, clear_database):
+        ProfileParser.ingest_profile_data(PROFILE)
+        assert len(EducationExperience.objects.all()) == 6
