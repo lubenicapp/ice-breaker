@@ -1,0 +1,275 @@
+{
+  "linkedin_internal_id": "39497",
+  "description": "Pr\u00e9sente sur l\u2019ensemble du territoire national, Nexity se d\u00e9finit comme un op\u00e9rateur urbain au service de la r\u00e9g\u00e9n\u00e9ration urbaine et des nouveaux besoins des territoires et de ses clients. \n\nEn s\u2019appuyant sur notre double expertise d\u2019am\u00e9nageur-promoteur et de promoteur-exploitant, le Groupe d\u00e9ploie une offre territoriale multi produits pour r\u00e9pondre \u00e0 tous les besoins de nos clients, particuliers, entreprises, institutionnels et collectivit\u00e9s.\n\nEngag\u00e9 historiquement pour l\u2019acc\u00e8s au logement pour tous et leader de la d\u00e9carbonation de notre secteur, nous nous mobilisons pour un immobilier abordable et durable, neuf et r\u00e9habilit\u00e9. Notre raison d\u2019\u00eatre \u2018la vie ensemble\u2019 traduit notre engagement \u00e0 cr\u00e9er pour nos clients, des espaces, des quartiers et des villes durables qui permettent de tisser et retisser des liens. ",
+  "website": null,
+  "industry": "Real Estate",
+  "company_size": [
+    1001,
+    5000
+  ],
+  "company_size_on_linkedin": 5393,
+  "hq": {
+    "country": "FR",
+    "city": "Paris",
+    "postal_code": "75008",
+    "line_1": "19 Rue de Vienne",
+    "is_hq": true,
+    "state": "IdF"
+  },
+  "company_type": "PRIVATELY_HELD",
+  "founded_year": 2000,
+  "specialities": [],
+  "locations": [
+    {
+      "country": "FR",
+      "city": "Paris",
+      "postal_code": "75008",
+      "line_1": "19 Rue de Vienne",
+      "is_hq": true,
+      "state": "IdF"
+    }
+  ],
+  "name": "Nexity",
+  "tagline": null,
+  "universal_name_id": "nexity",
+  "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/nexity/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240923%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240923T230213Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=43bcbca6320999dcf9855d3042eb98d9bcb6769d0f30df33a2f9d6bcdb530022",
+  "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/nexity/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240923%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240923T230213Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e1488cd3030cb939e68dd1be4633f075186f3970b75ecce950b283c426f66058",
+  "search_id": "39497",
+  "similar_companies": [
+    {
+      "name": "Bouygues Immobilier",
+      "link": "https://www.linkedin.com/company/bouygues-immobilier/",
+      "industry": "Real Estate",
+      "location": null
+    },
+    {
+      "name": "Kaufman & Broad",
+      "link": "https://www.linkedin.com/company/kaufman-and-broad/",
+      "industry": "Real Estate",
+      "location": null
+    },
+    {
+      "name": "VINCI Immobilier",
+      "link": "https://www.linkedin.com/company/vinci-immobilier/",
+      "industry": "Real Estate",
+      "location": null
+    },
+    {
+      "name": "ICADE",
+      "link": "https://www.linkedin.com/company/icade/",
+      "industry": "Real Estate",
+      "location": null
+    },
+    {
+      "name": "ALTAREA",
+      "link": "https://www.linkedin.com/company/altarea-groupe/",
+      "industry": "Real Estate",
+      "location": null
+    },
+    {
+      "name": "Cogedim",
+      "link": "https://www.linkedin.com/company/cogedim/",
+      "industry": "Real Estate",
+      "location": null
+    },
+    {
+      "name": "Cr\u00e9dit Agricole Immobilier",
+      "link": "https://www.linkedin.com/company/ca-immobilier/",
+      "industry": "Real Estate",
+      "location": null
+    },
+    {
+      "name": "Nexity Entreprises",
+      "link": "https://www.linkedin.com/company/nexity-entreprises/",
+      "industry": "Real Estate",
+      "location": null
+    },
+    {
+      "name": "SOGEPROM",
+      "link": "https://www.linkedin.com/company/sogeprom/",
+      "industry": "Real Estate",
+      "location": null
+    },
+    {
+      "name": "CDC Habitat",
+      "link": "https://www.linkedin.com/company/cdchabitat/",
+      "industry": "Real Estate",
+      "location": null
+    },
+    {
+      "name": "Groupe Edouard Denis",
+      "link": "https://www.linkedin.com/company/edouarddenispromotion/",
+      "industry": "Real Estate",
+      "location": null
+    },
+    {
+      "name": "Groupe Pichet",
+      "link": "https://www.linkedin.com/company/groupe-pichet/",
+      "industry": "Real Estate",
+      "location": null
+    },
+    {
+      "name": "FONCIA",
+      "link": "https://www.linkedin.com/company/foncia/",
+      "industry": "Real Estate",
+      "location": null
+    },
+    {
+      "name": "Eiffage Immobilier",
+      "link": "https://www.linkedin.com/company/eiffage-immobilier/",
+      "industry": "Real Estate",
+      "location": null
+    },
+    {
+      "name": "Citya Immobilier",
+      "link": "https://www.linkedin.com/company/cityaimmobilier/",
+      "industry": "Real Estate",
+      "location": null
+    },
+    {
+      "name": "Marignan",
+      "link": "https://www.linkedin.com/company/marignan-immo/",
+      "industry": "Real Estate",
+      "location": null
+    },
+    {
+      "name": "Les Nouveaux Constructeurs",
+      "link": "https://www.linkedin.com/company/les-nouveaux-constructeurs/",
+      "industry": "Real Estate",
+      "location": null
+    },
+    {
+      "name": "Immobili\u00e8re 3F",
+      "link": "https://www.linkedin.com/company/immobiliere-3-f/",
+      "industry": "Real Estate",
+      "location": null
+    },
+    {
+      "name": "Pitch Immo",
+      "link": "https://www.linkedin.com/company/pitch-immo-snc/",
+      "industry": "Real Estate",
+      "location": null
+    },
+    {
+      "name": "BNP Paribas Real Estate",
+      "link": "https://www.linkedin.com/company/bnp-paribas-real-estate/",
+      "industry": "Real Estate",
+      "location": null
+    }
+  ],
+  "affiliated_companies": [
+    {
+      "name": "Nexity Transformation des Territoires",
+      "link": "https://www.linkedin.com/showcase/nexity-transformation-territoires/",
+      "industry": "Real Estate",
+      "location": null
+    },
+    {
+      "name": "Nexity Entreprises",
+      "link": "https://www.linkedin.com/company/nexity-entreprises/",
+      "industry": "Real Estate",
+      "location": null
+    },
+    {
+      "name": "Fondation Nexity",
+      "link": "https://www.linkedin.com/company/fondation-nexity/",
+      "industry": "Philanthropic Fundraising Services",
+      "location": null
+    },
+    {
+      "name": "Nexity Conseil et Patrimoine",
+      "link": "https://www.linkedin.com/showcase/nexity-conseil-et-patrimoine/",
+      "industry": "Real Estate",
+      "location": null
+    },
+    {
+      "name": "Nexity Stud\u00e9a",
+      "link": "https://www.linkedin.com/company/nexity-studea/",
+      "industry": "Leasing Residential Real Estate",
+      "location": null
+    },
+    {
+      "name": "Nexity H\u00e9ritage",
+      "link": "https://www.linkedin.com/showcase/nexity-h%C3%A9ritage/",
+      "industry": "Real Estate",
+      "location": null
+    }
+  ],
+  "updates": [
+    {
+      "article_link": "https://www.linkedin.com/posts/nexity_communiqu%C3%A9-de-presse-adaptation-de-notre-activity-7240274161674194945-9avW",
+      "image": "https://media.licdn.com/dms/image/v2/D4E22AQELzBj_QFYdNg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1726215876733?e=1729123200&v=beta&t=ubCjVbInJTv4CoghlyHiujX-J-KNnmIIw0P1bnJUs24",
+      "posted_on": {
+        "day": 13,
+        "month": 9,
+        "year": 2024
+      },
+      "text": "\ud83d\udce3 [COMMUNIQU\u00c9 DE PRESSE] Adaptation de notre gouvernance pour accompagner notre transformation !\n\nPour accompagner la mise en \u0153uvre op\u00e9rationnelle de notre mod\u00e8le d'am\u00e9nageur-promoteur-exploitant agile, territorial et multiproduits, nous nous dotons d\u2019une nouvelle gouvernance. \ud83e\udd1d\n\n\u25b6\ufe0f Cette transformation de l\u2019entreprise permettra de capter le rebond du nouveau cycle immobilier, et s\u2019appuie partout en France sur l\u2019engagement des dirigeants op\u00e9rationnels du Groupe et des \u00e9quipes.\n\nEn savoir plus \u27a1\ufe0f https://lnkd.in/erqmc9Fa",
+      "total_likes": 45
+    },
+    {
+      "article_link": "https://www.linkedin.com/posts/nexity_lyon-villededemain-activity-7240022747123261442-06Gi",
+      "image": "https://media.licdn.com/dms/image/v2/D4E22AQG970W0vMJw2A/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1726155932439?e=1729123200&v=beta&t=vwGuHkQ8WkI3MXP-cBrLCjGwaEhQLmukRoJAsGi4_dQ",
+      "posted_on": {
+        "day": 12,
+        "month": 9,
+        "year": 2024
+      },
+      "text": "Pr\u00e9sentation des projets Nexity \u00e0 Lyon Confluence : un pas de plus vers la Ville de Demain ! \u2728\n\nA l\u2019occasion d\u2019un point presse conjoint avec la Ville de Lyon et la M\u00e9tropole, V\u00e9ronique B\u00e9dague, PDG de Nexity et Fr\u00e9d\u00e9ric Marchal, DGA immobilier r\u00e9sidentiel, ont pr\u00e9sent\u00e9 les projets port\u00e9s par Nexity dans le nouveau quartier Lyon Confluence. \ud83c\udfd7\ufe0f\n\n\u25b6\ufe0f Rapha\u00ebl Michaud, adjoint au Maire de #Lyon d\u00e9l\u00e9gu\u00e9 \u00e0 la ville abordable, bas carbone et d\u00e9sirable, Bruno Bernard, Pr\u00e9sident de la M\u00e9tropole de Lyon, B\u00e9atrice VESSILLER, VP de la M\u00e9tropole de Lyon et Renaud PAYRE, VP de la m\u00e9tropole de Lyon en ont profit\u00e9 pour rappeler l\u2019ambition port\u00e9e par Lyon Confluence, qui est de transformer le c\u0153ur de la troisi\u00e8me plus grande m\u00e9tropole de France en un quartier solidaire, innovant, inclusif et engag\u00e9 dans la transition \u00e9cologique et ont salu\u00e9 l\u2019engagement du Groupe Nexity dans le quartier, et sur l\u2019ensemble du territoire.\n\n\ud83c\udfd9\ufe0f Nexity \u00e0 Lyon Confluence, c\u2019est 11 b\u00e2timents r\u00e9partis sur les \u00eelots C1 et B1 Nord, d\u00e9di\u00e9s au logement, au commerce et \u00e0 l\u2019enseignement sup\u00e9rieur. Ils sont con\u00e7us avec des mat\u00e9riaux biosourc\u00e9s et locaux, et int\u00e8grent des technologies de pointe pour r\u00e9duire l\u2019empreinte carbone.\n\nUn grand merci \u00e0 tous les acteurs politiques et partenaires qui contribuent \u00e0 faire de ce projet une r\u00e9alit\u00e9, notamment \u00e0 Samuel LINZAU Directeur g\u00e9n\u00e9ral de la SPL CONFLUENCE. \ud83d\udc4f\n\n\ud83e\udd1d Ensemble, nous b\u00e2tissons la #VilleDeDemain, une ville o\u00f9 il fait bon vivre, \u00e9tudier et travailler.",
+      "total_likes": 159
+    },
+    {
+      "article_link": "https://www.linkedin.com/posts/nexity_rentable-durable-immobilier-activity-7238933219818049536-VhID",
+      "image": "https://media.licdn.com/dms/image/v2/D4E22AQEqgB61v8TETw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1725896171380?e=1729123200&v=beta&t=7WO5Is83cDrhgiEKffHQ1MK_SGqzqexooNoX59bYgU0",
+      "posted_on": {
+        "day": 10,
+        "month": 9,
+        "year": 2024
+      },
+      "text": "\ud83c\udfe0 Comment investir dans l\u2019immobilier gr\u00e2ce \u00e0 l\u2019assurance-vie ?\n\nD\u00e9couvrez tous les conseils de nos experts pour acc\u00e9der \u00e0 un investissement #rentable et #durable dans l\u2019#immobilier via l\u2019assurance-vie.\n\nAu programme :\n\n\ud83d\udc49 Tendance d\u2019investissement pour 2024\n\ud83d\udc49 Perspectives pour le march\u00e9 immobilier\n\ud83d\udc49 Importance d\u2019une bonne allocation\n\n\ud83d\udcc5\u00a0 Ne manquez pas ce nouveau Live de l\u2019Immo\u00a0Jeudi 19 septembre\u00a0\u00e0\u00a011h30\nInscrivez-vous d\u00e8s maintenant ici \u27a1\ufe0f https://lnkd.in/e334b37u",
+      "total_likes": 15
+    },
+    {
+      "article_link": "https://www.linkedin.com/posts/nexity_biodiversitaez-aezcoresponsable-bascarbone-activity-7239648921390624768-ksSH",
+      "image": "https://media.licdn.com/dms/image/v2/D4E22AQGRQVsf9I1XaA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1726064615166?e=1729123200&v=beta&t=rBO9aPRVhxpmbeVeU_lZS9rQpJujJF9cNmuJHxAeCEE",
+      "posted_on": {
+        "day": 12,
+        "month": 9,
+        "year": 2024
+      },
+      "text": "\ud83c\udf89 Inauguration de l\u2019\u00eelot C de l\u2019\u00e9coquartier de la ZAC des Laugiers \u00e0 Ville de Sollies-Pont ! \ud83c\udf3f\n\nC\u2019est une grande fiert\u00e9 pour nous d\u2019avoir inaugur\u00e9 hier ce nouvel ensemble au c\u0153ur d\u2019un projet qui incarne notre engagement envers la #biodiversit\u00e9 et la mixit\u00e9 sociale. \ud83e\udd1d\n\nNotre objectif \u00e9tait de r\u00e9ussir \u00e0 connecter ce nouveau morceau de ville au centre-ville historique situ\u00e9 \u00e0 quelques minutes et de cr\u00e9er du lien entre les habitants.\n\nDans une logique #\u00e9coresponsable, nous avons fait le choix d\u2019un quartier favorisant les mobilit\u00e9s douces en construisant des parkings silos \u00e0 l\u2019entr\u00e9e et en articulant les b\u00e2timents autour d\u2019un magnifique mail pi\u00e9ton ! \ud83d\udeb6\u200d\u2642\ufe0f\n\nNous avons \u00e9galement utilis\u00e9 des mat\u00e9riaux biosourc\u00e9s et peu \u00e9missifs, tels que le b\u00e9ton #bascarbone et les menuiseries en #bois, pour r\u00e9duire son impact carbone. \u267b\ufe0f\n\nCon\u00e7u par les architectes Christophe et Alexandre Caire, l\u2019\u00eelot C \u201cR\u00e9sidence Les Jardins\u201d se distingue par son architecture moderne et fonctionnelle, et comprend 77 #logements r\u00e9partis en quatre b\u00e2timents avec :\n\n\u25b6\ufe0f 23 logements en Accession libre\n\u25b6\ufe0f 18 logements en LLS au profit du bailleur Var Habitat\n\u25b6\ufe0f 36 logements en LLI au profit de bailleur CDC Habitat\n\nNous sommes fiers de ce projet et de ce qu\u2019il repr\u00e9sente pour la ville de Solli\u00e8s-Pont. Un grand bravo \u00e0 l\u2019ensemble des \u00e9quipes et de nos partenaires ayant \u0153uvr\u00e9 pour sa r\u00e9ussite ! \ud83d\udc4f",
+      "total_likes": 77
+    },
+    {
+      "article_link": "https://www.linkedin.com/posts/nexity-transformation-territoires_nexitytransformationdesterritoires-villesetprojets-ugcPost-7239733464588038144-KVWw",
+      "image": "https://media.licdn.com/dms/image/v2/D4E22AQFwHlNZua6eOg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1726086964688?e=1729123200&v=beta&t=2u5p7KLYNo1YjIjNopAhXr7IrKjFHQ0CnDKclL8wBls",
+      "posted_on": {
+        "day": 12,
+        "month": 9,
+        "year": 2024
+      },
+      "text": "\ud83e\udd1d\u00a0[Partenariat]\n\nV\u00e9ronique B\u00e9dague, Pr\u00e9sidente directrice g\u00e9n\u00e9rale de Nexity, et Jean luc Porcedo, Directeur g\u00e9n\u00e9ral #NexityTransformationdesterritoires et Pr\u00e9sident #VillesEtProjets, ont accueilli Christophe Bouillon, Pr\u00e9sident de l\u2019Association des Petites Villes de France et Maire de #Barentin, pour un bureau de rentr\u00e9e de l\u2019APVF Jean-Pierre BOUQUET #ChristopheCHAILLOU Romain Colas Jean-Baptiste Hamonic #AntoineHOME #HaroldHUWART #NicolasJANDER Fabien Lain\u00e9 Philippe LAURENT Jean Michel Morer #NathalieNIESON Jean-Michel Perret Camille Pouponneau St\u00e9phan ROSSIGNOL Christophe Rouillon #Fr\u00e9d\u00e9ricSAUSSET Igor Semo Anthony ZILIO.\n\nCe fut l\u2019occasion de revenir sur la rencontre organis\u00e9e par l\u2019APVF\u00a0\u00ab Ensemble, relevons les d\u00e9fis du logement dans les petites villes \u00bb\u00a0(https://lnkd.in/ex_bEkcY) et de pr\u00e9senter les r\u00e9ponses apport\u00e9es par Nexity \u00e0 ces d\u00e9fis\u00a0\u00e0 travers\u00a0:\u00a0\n\ud83d\udca1les projets de revitalisation de c\u0153urs de ville, d\u2019entr\u00e9es de ville et la reconversion des fonciers commerciaux men\u00e9s;\n\ud83d\udca1les bonnes pratiques (#NaturaCity) et les innovations environnementales (eau, \u00e9nergie) port\u00e9es par le Groupe;\n\ud83d\udca1l'opportunit\u00e9 que #Nexitysolaire peut repr\u00e9senter pour les collectivit\u00e9s et leurs finances.\n\nPour prolonger\u00a0\ud83d\udc49 \u00a0https://lnkd.in/eYQaS-iW\n\n\ud83d\udcc6 Et rendez-vous aux #AssisesAPVF, les 19 et 20 septembre \u00e0 #Amboise\u00a0:\u00a0https://lnkd.in/eENncXa6\n\n#collterr #cadredevie #innovation #am\u00e9nagement #commerces #logement #habitat #emploi #mobilit\u00e9 #attractivit\u00e9duterritoire",
+      "total_likes": 59
+    },
+    {
+      "article_link": "https://www.linkedin.com/posts/nexity-transformation-territoires_choiseulvillededemain-activity-7237169372987867136-rfoj",
+      "image": null,
+      "posted_on": {
+        "day": 6,
+        "month": 9,
+        "year": 2024
+      },
+      "text": "\ud83d\udc4f Nexity #TransformationDesTerritoires #VillesEtProjets est fi\u00e8re de la reconnaissance d\u00e9cern\u00e9e par l'Institut Choiseul \u00e0 Elodie Benoit et du travail r\u00e9alis\u00e9 au quotidien avec elle pour penser la #VilleDeDemain.\n \n#am\u00e9nagement Jean luc Porcedo  #enviesdeville #territoires #innovation #collter",
+      "total_likes": 43
+    }
+  ],
+  "follower_count": 136629,
+  "acquisitions": null,
+  "exit_data": null,
+  "extra": null,
+  "funding_data": [],
+  "categories": [
+    "real-estate"
+  ],
+  "customer_list": null
+}
