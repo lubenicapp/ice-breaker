@@ -1,4 +1,7 @@
 from django.db import models
+from django.core.mail import send_mail
+
+from hrid import HRID
 
 
 class Person(models.Model):
@@ -9,7 +12,7 @@ class Person(models.Model):
     country = models.CharField(max_length=127, null=True)
     city = models.CharField(max_length=127, null=True)
     skills = models.JSONField(null=True)
-
+    updated_at = models.DateTimeField(auto_now=True)
 
 class Company(models.Model):
     linkedin_url = models.URLField(null=True)
@@ -50,6 +53,15 @@ class Group(models.Model):
 class Network(models.Model):
     slug = models.SlugField(unique=True)
     email = models.EmailField(unique=True)
+    credits = models.PositiveSmallIntegerField(default=0)
     persons = models.ManyToManyField(Person, related_name='networks')
     companies = models.ManyToManyField(Company, related_name='networks')
     schools = models.ManyToManyField(School, related_name='networks')
+
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            h = HRID()
+            self.slug = h.generate()
+            send_mail('', self.slug, None, [self.email])
+
+        super().save(*args, **kwargs)

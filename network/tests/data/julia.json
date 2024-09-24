@@ -1,0 +1,275 @@
+{
+    "public_identifier": "juliacosic",
+    "profile_pic_url": "https://media.licdn.com/dms/image/v2/D4E03AQH1zqW5YDTToQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1697205800290?e=1732752000&v=beta&t=Ua0xfDeZfha0j6-8QWzg8Arp-o9c4YaJt4T_8fo65Oo",
+    "background_cover_image_url": "https://media.licdn.com/dms/image/v2/D4E16AQEa8XMxt-A-ew/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1719068902471?e=1732752000&v=beta&t=PCibcJ_dtxiVxQmx_efc_jifeYRwtLU_rCb6Fue_E9Y",
+    "first_name": "Julia",
+    "last_name": "C.",
+    "full_name": "Julia C.",
+    "follower_count": 1519,
+    "occupation": "Charg\u00e9e de Recrutement at Alpineo Consulting",
+    "headline": "Talent Acquisition Specialist | Alpineo Consulting",
+    "summary": "\u2714\ufe0f +4 ans d'exp\u00e9rience dans l'industrie du luxe (h\u00f4tellerie, gastronomie, mode, horlogerie/joaillerie...)\n\ud83d\udc64 Sp\u00e9cialis\u00e9e depuis +3 ans dans les Ressources Humaines (Recrutement, Relations \u00c9coles, Administratif & Int\u00e9gration)\n\ud83c\udf93 Dipl\u00f4m\u00e9e d'un Master II au sein de l'EIML Paris\n\u2712\ufe0f Collaboratrice authentique et int\u00e8gre, mes exp\u00e9riences m'ont permis de d\u00e9velopper polyvalence et adaptabilit\u00e9!",
+    "country": "CH",
+    "country_full_name": "Switzerland",
+    "city": "Geneva",
+    "state": "Geneva",
+    "experiences": [
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 10,
+                "year": 2023
+            },
+            "ends_at": null,
+            "company": "Alpineo Consulting",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/alpineo-consulting",
+            "company_facebook_profile_url": null,
+            "title": "Charg\u00e9e de Recrutement",
+            "description": "Alpineo est une soci\u00e9t\u00e9 Suisse de conseil sp\u00e9cialis\u00e9e dans les m\u00e9tiers de l\u2019IT, du Digital, de l\u2019Ing\u00e9nierie et des Life-Sciences.\nAlpineo accompagne ses clients dans la r\u00e9alisation de leurs projets de transformation en leur mettant \u00e0 disposition ses \u00e9quipes de consultants.\nSecteurs horlogerie/joaillerie, a\u00e9ronautique, banque/assurance, t\u00e9l\u00e9coms...\n\n\u2713 cr\u00e9ation des offres d'emploi et sourcing des candidats\n\u2713 pr\u00e9s\u00e9lection, coordination et administration des entretiens de pr\u00e9-qualification & qualification \n\u2713 pr\u00e9paration des candidats aux entretiens clients (administratif, m\u00e9thodologie...)\n\u2713 d\u00e9veloppement et suivi du r\u00e9seau candidat\n\u2713 gestion de projets annexes",
+            "location": "Vernier, Gen\u00e8ve, Suisse",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/alpineo-consulting/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240924%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240924T100654Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=b5684154737ec791d0a4542e45cb9584f1b1659d42d71a38ff160aa01e647fe4"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 9,
+                "year": 2022
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 10,
+                "year": 2023
+            },
+            "company": "CHANEL",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/chanel",
+            "company_facebook_profile_url": null,
+            "title": "Junior Campus Manager & Talent Acquisition - Division Corporate",
+            "description": "\u2713 d\u00e9ploiement de la strat\u00e9gie relations \u00e9coles & partenariats (ing\u00e9nieurs et commerce) : cibles, intervenants, analyse du besoin en recrutement (stagiaires, apprentis)\n\u2713 organisation des \u00e9v\u00e8nements \u00e9coles : logistique, gestion op\u00e9rationnelle (+70 \u00e9v\u00e8nements/an)\n\u2713 animation des actions p\u00e9dagogiques (50 \u00e0 300 pers.) : tenue des conf\u00e9rences FR/EN de la Maison, participation aux forums de recrutement & speed-recruiting\n\u2713 cr\u00e9ation des contenus \u00e9ditoriaux & projets marque employeur : tournages vid\u00e9o et articles JobTeaser, pr\u00e9sentations internes...\n\u2713 coordination de projets transverses : KPI's de recrutement, Diversit\u00e9 & Inclusion, suivi du budget annuel allou\u00e9 aux actions \u00e9coles",
+            "location": "Neuilly-sur-Seine, \u00cele-de-France, France",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/chanel/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240924%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240924T100654Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=db5d35b21475fb63beefd0b89c0c1238676481a257a70f04e9b5476bd40281a1"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 1,
+                "year": 2022
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 7,
+                "year": 2022
+            },
+            "company": "Hyatt Paris Madeleine",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/hyatt-paris-madeleine",
+            "company_facebook_profile_url": null,
+            "title": "Assistante RRH",
+            "description": "\u2713 int\u00e9gration des nouveaux embauch\u00e9s : recrutement d'une population stagiaire/alternant & onboarding des CDI/CDD/alternances/stages\n\u2713 en charge du suivi administratif : DPAE, mutuelles, visites m\u00e9dicales, p\u00e9riodes d'essai, droit du travail/l\u00e9gislation...\n\u2713 administration du personnel : badges d'acc\u00e8s, nouveaux uniformes...\n\u2713 gestion des CDD d'usage/extras : r\u00e9daction des contrats, \u00e9l\u00e9ments variables de paie et validation\n\u2713 communication interne & prospection \u00e9coles : affichages, cocktails, formations, offres de recrutement...",
+            "location": "Ville de Paris, \u00cele-de-France, France",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/hyatt-paris-madeleine/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240924%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240924T100654Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=70539e3c5973715d53dead68686c467b63906dd9a8c5383115bd8691308b85ab"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 5,
+                "year": 2021
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 12,
+                "year": 2021
+            },
+            "company": "Hugo & Victor",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/hugo-&-victor-international",
+            "company_facebook_profile_url": null,
+            "title": "Assistante Commerciale B2B",
+            "description": "\u2713 commercial : r\u00e9ception des commandes de groupes h\u00f4teliers de luxe & CHR, prospection clients, analyse des ventes\n\u2713 logistique : suivi des stocks, gestion des plannings quotidiens de livraisons\n\u2713 \u00e9v\u00e8nementiel : promotion Collection Automne-Hiver 2021/2022\n\u2713 ressources humaines/comptabilit\u00e9 : envoi des facturations mensuelles clients, aide au recrutement, onboarding\n\u2713 gestion du portefeuille client h\u00f4telier, d\u00e9veloppement commercial",
+            "location": "La Celle-Saint-Cloud, \u00cele-de-France, France",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/hugo-%26-victor-international/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240924%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240924T100654Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=ed5eda83806d17b66a94a5ae5d362efe6cbd6a23260bb4a283e2754f8c44841b"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 1,
+                "year": 2020
+            },
+            "ends_at": {
+                "day": 30,
+                "month": 6,
+                "year": 2020
+            },
+            "company": "Prestige Avenue",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/prestige-avenue",
+            "company_facebook_profile_url": null,
+            "title": "Chef de Projet Junior",
+            "description": "\u2713 commercial : \u00e9laboration des devis, d\u00e9marchage t\u00e9l\u00e9phonique, emailing, veille concurrentielle\n\u2713 \u00e9v\u00e8nementiel : proposition & organisation de s\u00e9minaires\n\u2713 community management : media planning, newsletters & cr\u00e9ation des contenus, adaptation de l'activit\u00e9 \u00e0 la crise sanitaire\n\u2713 cr\u00e9ation du portefeuille client, gestion des budgets",
+            "location": "Ville de Paris, \u00cele-de-France, France",
+            "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQEBkFtAZMu_7Q/company-logo_400_400/company-logo_400_400/0/1631333491330?e=1735171200&v=beta&t=SG0qeut--UPFTB6Xkrb1AxiQIKzzuXGKJsuRGdWRr84"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 8,
+                "year": 2019
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 8,
+                "year": 2019
+            },
+            "company": "DILA - Direction de l'information l\u00e9gale et administrative",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/dila-direction-de-l'information-l-gale-et-administrative-",
+            "company_facebook_profile_url": null,
+            "title": "Assistante Web & Digital",
+            "description": "\u2713 mise en pages des contenus webs (vie-publique.fr)\n\u2713 r\u00e9daction de br\u00e8ves journalistiques\n\u2713 assistante CM, d\u00e9veloppement des r\u00e9seaux sociaux",
+            "location": "Ville de Paris, \u00cele-de-France, France",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/dila-direction-de-l%27information-l-gale-et-administrative-/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240924%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240924T100654Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=29cbf058e89eb98bf28aebd5588e5b3ff13189c431ec8d7fa13adc9c61caa361"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 1,
+                "year": 2019
+            },
+            "ends_at": {
+                "day": 30,
+                "month": 6,
+                "year": 2019
+            },
+            "company": "Arlettie Paris",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/arlettie",
+            "company_facebook_profile_url": null,
+            "title": "Assistante Support Op\u00e9rationnel",
+            "description": "\u2713 missions polyvalentes au sein du showroom de ventes priv\u00e9es : conseill\u00e8re de vente, merchandising, inventaire, h\u00f4tesse de caisse, vestiaire",
+            "location": "Ville de Paris, \u00cele-de-France, France",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/arlettie/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240924%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240924T100654Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=556efae649ae07174b3c47fb1e5aa30d257fa1b761691ecc41245a02dcde8894"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 6,
+                "year": 2016
+            },
+            "ends_at": {
+                "day": 30,
+                "month": 6,
+                "year": 2016
+            },
+            "company": "Blue Link Associates Limited",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/blue-link-associates-limited",
+            "company_facebook_profile_url": null,
+            "title": "Assistante Communication Interne",
+            "description": "\u2713 approfondissement des m\u00e9tiers du marketing et de la communication\n\u2713 cr\u00e9ation \u00e9v\u00e9nementielle et digitale (\u00e9v\u00e8nements internes, mises en page web)",
+            "location": "Ivry-sur-Seine, \u00cele-de-France, France",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/blue-link-associates-limited/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240924%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240924T100654Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=efd4644615da7ad1664a64c0e3aef83c83639db325fcc4de94b03c154abbdfe0"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 12,
+                "year": 2014
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 12,
+                "year": 2014
+            },
+            "company": "Digital Realty",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/digitalrealty",
+            "company_facebook_profile_url": null,
+            "title": "Assistante Polyalente (ex Interxion)",
+            "description": "\u2713 d\u00e9couverte de diff\u00e9rents m\u00e9tiers : marketing & communication, ressources humaines, comptabilit\u00e9...",
+            "location": "Ville de Paris, \u00cele-de-France, France",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/digitalrealty/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240924%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240924T100654Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=58fedb9efca3bb6d2007676b21a31ac36105e5cf86cc8a6914758d9041b630a1"
+        }
+    ],
+    "education": [
+        {
+            "starts_at": null,
+            "ends_at": null,
+            "field_of_study": "Marketing // Sp\u00e9cialisation Luxe // PGE",
+            "degree_name": "Master II",
+            "school": "EIML Paris",
+            "school_linkedin_profile_url": "https://www.linkedin.com/company/15098430/",
+            "school_facebook_profile_url": null,
+            "description": "\u2713 Majeure : Hospitality, H\u00f4tellerie & Gastronomie\n\u2713 Mineure : Horlogerie & Joaillerie\n\u2713 Cours pratiques sur le luxe (marketing, communication, RH) : cr\u00e9ation d'agences, r\u00e9daction de communiqu\u00e9s de presse, \u00e9laboration de strat\u00e9gies brand content, cr\u00e9ation de sites web, SWOT, \u00e9tudes de march\u00e9, \u00e9tudes qualitatives et quantitatives, cr\u00e9ation de visuels via logiciels PAO...",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/eiml-paris/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240924%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240924T100654Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=be56e363e1643db7a18485f4e482cdf88210aab89cfdb793a495d0cef81b2860",
+            "grade": "Manager des Strat\u00e9gies Communication Marketing",
+            "activities_and_societies": null
+        }
+    ],
+    "languages": [
+        "Anglais",
+        "Fran\u00e7ais"
+    ],
+    "accomplishment_organisations": [],
+    "accomplishment_publications": [],
+    "accomplishment_honors_awards": [],
+    "accomplishment_patents": [],
+    "accomplishment_courses": [],
+    "accomplishment_projects": [],
+    "accomplishment_test_scores": [],
+    "volunteer_work": [],
+    "certifications": [
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 1,
+                "year": 2023
+            },
+            "ends_at": null,
+            "name": "International Computer Driving License (ICDL)",
+            "license_number": null,
+            "display_source": null,
+            "authority": "ICDL France",
+            "url": null
+        },
+        {
+            "starts_at": null,
+            "ends_at": null,
+            "name": "Test of English for International Communication (TOEIC)",
+            "license_number": null,
+            "display_source": null,
+            "authority": "ETS",
+            "url": null
+        },
+        {
+            "starts_at": null,
+            "ends_at": null,
+            "name": "Certification Google Ads sur le R\u00e9seau de Recherche",
+            "license_number": null,
+            "display_source": null,
+            "authority": "Google Ads (Google Partner)",
+            "url": null
+        }
+    ],
+    "connections": 914,
+    "people_also_viewed": [],
+    "recommendations": [],
+    "activities": [],
+    "similarly_named_profiles": [],
+    "articles": [],
+    "groups": [
+        {
+            "profile_pic_url": "https://media.licdn.com/dms/image/v2/C4E07AQEtbFxoCjRaGA/group-logo_image-shrink_48x48/group-logo_image-shrink_48x48/0/1521153285837?e=1727780400&v=beta&t=snC0abwwRORj7JkRn3CXYpwpZKfndI_HeZNdFB95dXw",
+            "name": "Pro network UTBM - Emplois et stages - Universit\u00e9 de Technologie de Belfort-Montb\u00e9liard",
+            "url": "https://www.linkedin.com/groups/96292"
+        },
+        {
+            "profile_pic_url": "https://media.licdn.com/dms/image/v2/D4E07AQFRKTkXl75mIQ/group-logo_image-shrink_400x400/group-logo_image-shrink_400x400/0/1700833070435?e=1727780400&v=beta&t=chcSxOYVc4DdS9aR1EMOJsOtwL9TrWdK-DCF1vrslPE",
+            "name": "EIML ALUMNI",
+            "url": "https://www.linkedin.com/groups/12655668"
+        }
+    ],
+    "skills": [],
+    "inferred_salary": {
+        "min": null,
+        "max": null
+    },
+    "gender": null,
+    "birth_date": null,
+    "industry": null,
+    "extra": null,
+    "interests": [],
+    "personal_emails": [],
+    "personal_numbers": []
+}

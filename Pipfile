@@ -16,9 +16,9 @@ django-debug-toolbar = "*"
 behave = "*"
 blue = "*"
 mypy = "*"
-freezegun = "*"
 pytest-cov = "*"
 pytest-django = "*"
+freezegun = "*"
 
 [requires]
 python_version = "3.12"
