@@ -14,7 +14,6 @@ class ProfileParser:
         education_history = cls.extract_education_history(data)
         cls.__build_education_history(education_history, p)
 
-
     @staticmethod
     def __build_person(data):
         p, _ = Person.objects.update_or_create(

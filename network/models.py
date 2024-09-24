@@ -6,7 +6,7 @@ from hrid import HRID
 
 
 class Person(models.Model):
-    linkedin_identifier = models.URLField()
+    linkedin_identifier = models.CharField(max_length=120, null=True)
     first_name = models.CharField(max_length=127)
     last_name = models.CharField(max_length=127)
     profile_picture_url = models.URLField(null=True)
@@ -14,6 +14,7 @@ class Person(models.Model):
     city = models.CharField(max_length=127, null=True)
     skills = models.JSONField(null=True)
     updated_at = models.DateTimeField(auto_now=True)
+
 
 class Company(models.Model):
     linkedin_url = models.URLField(null=True)
