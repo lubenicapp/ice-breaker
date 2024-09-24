@@ -1,5 +1,6 @@
 from django.db import models
 from django.core.mail import send_mail
+from django.utils.text import slugify
 
 from hrid import HRID
 
@@ -43,13 +44,6 @@ class EducationExperience(models.Model):
     end_year = models.PositiveSmallIntegerField(null=True)
 
 
-class Group(models.Model):
-    members = models.ManyToManyField(Person, related_name='groups')
-    linkedin_url = models.URLField()
-    name = models.CharField(max_length=127)
-    profile_picture_url = models.URLField(null=True)
-
-
 class Network(models.Model):
     slug = models.SlugField(unique=True)
     email = models.EmailField(unique=True)
@@ -61,7 +55,7 @@ class Network(models.Model):
     def save(self, *args, **kwargs):
         if not self.slug:
             h = HRID()
-            self.slug = h.generate()
+            self.slug = slugify(h.generate())
             send_mail('', self.slug, None, [self.email])
 
         super().save(*args, **kwargs)
