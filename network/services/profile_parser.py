@@ -12,19 +12,7 @@ class ProfileParser:
         cls.__build_work_experiences(work_experiences, p)
 
         education_history = cls.extract_education_history(data)
-        for education in education_history:
-            school, _ = School.objects.get_or_create(
-                linkedin_url=education['school']['linkedin_url'],
-                name=education['school']['name'],
-            )
-            e = EducationExperience(
-                person=p,
-                school=school,
-                field_of_study=education['field_of_study'],
-                start_year=education['start_year'],
-                end_year=education['end_year'],
-            )
-            e.save()
+        cls.__build_education_history(education_history, p)
 
 
     @staticmethod
@@ -50,6 +38,22 @@ class ProfileParser:
                 end_year=work_experience['end_year'],
             )
             w.save()
+
+    @staticmethod
+    def __build_education_history(education_history, person):
+        for education in education_history:
+            school, _ = School.objects.get_or_create(
+                linkedin_url=education['school']['linkedin_url'],
+                name=education['school']['name'],
+            )
+            e = EducationExperience(
+                person=person,
+                school=school,
+                field_of_study=education['field_of_study'],
+                start_year=education['start_year'],
+                end_year=education['end_year'],
+            )
+            e.save()
 
     @classmethod
     def extract_profile(cls, data: dict) -> dict:
