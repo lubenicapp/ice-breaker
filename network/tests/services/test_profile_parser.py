@@ -1,8 +1,15 @@
 import json
+
 import pytest
 from django.conf import settings
 
-from network.models import Person, WorkExperience, Company
+from network.models import (
+    Person,
+    Company,
+    School,
+    WorkExperience,
+    EducationExperience,
+)
 from network.services import ProfileParser
 
 DATA_DIR = settings.BASE_DIR / 'ice-breaker/network/tests/data/'
@@ -18,6 +25,11 @@ def profile():
 @pytest.fixture(scope='module')
 def work_experiences():
     return ProfileParser.extract_work_experiences(PROFILE)
+
+
+@pytest.fixture(scope='module')
+def education_history():
+    return ProfileParser.extract_education_history(PROFILE)
 
 
 class TestExtractProfile:
@@ -66,3 +78,31 @@ class TestExtractWorkExperiences:
                 end_year=work_experience['end_year'],
             )
             w.save()
+
+
+class TestExtractEducationHistory:
+    def test_return_type(self, education_history):
+        assert type(education_history) == list
+
+    def test_parse_the_correct_count(self, education_history):
+        assert len(education_history) == 6
+
+    @pytest.mark.django_db
+    def test_returns_valid_args(self, education_history):
+        # should not raise errors
+        for education in education_history:
+            person, _ = Person.objects.get_or_create(
+                linkedin_identifier=education['person']
+            )
+            school, _ = School.objects.get_or_create(
+                linkedin_url=education['school']['linkedin_url'],
+                name=education['school']['name'],
+            )
+            e = EducationExperience(
+                person=person,
+                school=school,
+                field_of_study=education['field_of_study'],
+                start_year=education['start_year'],
+                end_year=education['end_year'],
+            )
+            e.save()

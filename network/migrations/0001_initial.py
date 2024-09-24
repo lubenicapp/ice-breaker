@@ -8,14 +8,21 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
             name='Company',
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                (
+                    'id',
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name='ID',
+                    ),
+                ),
                 ('linkedin_url', models.URLField()),
                 ('name', models.CharField(max_length=127)),
                 ('profile_picture_url', models.URLField(null=True)),
@@ -26,7 +33,15 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Person',
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                (
+                    'id',
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name='ID',
+                    ),
+                ),
                 ('linkedin_identifier', models.URLField()),
                 ('first_name', models.CharField(max_length=127)),
                 ('last_name', models.CharField(max_length=127)),
@@ -40,7 +55,15 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='School',
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                (
+                    'id',
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name='ID',
+                    ),
+                ),
                 ('linkedin_url', models.URLField()),
                 ('name', models.CharField(max_length=127)),
                 ('profile_picture_url', models.URLField(null=True)),
@@ -49,44 +72,123 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Group',
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                (
+                    'id',
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name='ID',
+                    ),
+                ),
                 ('linkedin_url', models.URLField()),
                 ('name', models.CharField(max_length=127)),
                 ('profile_picture_url', models.URLField(null=True)),
-                ('members', models.ManyToManyField(related_name='groups', to='network.person')),
+                (
+                    'members',
+                    models.ManyToManyField(
+                        related_name='groups', to='network.person'
+                    ),
+                ),
             ],
         ),
         migrations.CreateModel(
             name='Network',
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                (
+                    'id',
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name='ID',
+                    ),
+                ),
                 ('slug', models.SlugField(unique=True)),
                 ('email', models.EmailField(max_length=254, unique=True)),
-                ('companies', models.ManyToManyField(related_name='networks', to='network.company')),
-                ('persons', models.ManyToManyField(related_name='networks', to='network.person')),
-                ('schools', models.ManyToManyField(related_name='networks', to='network.school')),
+                (
+                    'companies',
+                    models.ManyToManyField(
+                        related_name='networks', to='network.company'
+                    ),
+                ),
+                (
+                    'persons',
+                    models.ManyToManyField(
+                        related_name='networks', to='network.person'
+                    ),
+                ),
+                (
+                    'schools',
+                    models.ManyToManyField(
+                        related_name='networks', to='network.school'
+                    ),
+                ),
             ],
         ),
         migrations.CreateModel(
             name='EducationExperience',
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('field_of_study', models.CharField(max_length=127, null=True)),
+                (
+                    'id',
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name='ID',
+                    ),
+                ),
+                (
+                    'field_of_study',
+                    models.CharField(max_length=127, null=True),
+                ),
                 ('start_year', models.PositiveSmallIntegerField(null=True)),
                 ('end_year', models.PositiveSmallIntegerField(null=True)),
-                ('person', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='network.person')),
-                ('school', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='network.school')),
+                (
+                    'person',
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        to='network.person',
+                    ),
+                ),
+                (
+                    'school',
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        to='network.school',
+                    ),
+                ),
             ],
         ),
         migrations.CreateModel(
             name='WorkExperience',
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                (
+                    'id',
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name='ID',
+                    ),
+                ),
                 ('title', models.CharField(max_length=127)),
                 ('start_year', models.PositiveSmallIntegerField(null=True)),
                 ('end_year', models.PositiveSmallIntegerField(null=True)),
-                ('company', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='network.company')),
-                ('person', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='network.person')),
+                (
+                    'company',
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        to='network.company',
+                    ),
+                ),
+                (
+                    'person',
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        to='network.person',
+                    ),
+                ),
             ],
         ),
     ]

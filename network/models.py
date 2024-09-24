@@ -12,14 +12,14 @@ class Person(models.Model):
 
 
 class Company(models.Model):
-    linkedin_url = models.URLField()
+    linkedin_url = models.URLField(null=True)
     name = models.CharField(max_length=127)
     profile_picture_url = models.URLField(null=True)
     location = models.CharField(max_length=127, null=True)
 
 
 class School(models.Model):
-    linkedin_url = models.URLField()
+    linkedin_url = models.URLField(null=True)
     name = models.CharField(max_length=127)
     profile_picture_url = models.URLField(null=True)
 
