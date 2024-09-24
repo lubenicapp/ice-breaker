@@ -12,3 +12,20 @@ class ProfileParser:
             'city': data['city'],
             'skills': data['skills'],
         }
+
+    @classmethod
+    def extract_work_experiences(cls, data: dict) -> List[dict]:
+        experiences = data['experiences']
+        return [
+            {
+                'person': data['public_identifier'],
+                'company': {
+                    'name': experience['company'],
+                    'linkedin_url': experience['company_linkedin_profile_url'],
+                },
+                'title': experience['title'],
+                'start_year': experience['starts_at']['year'] if experience['starts_at'] else None,
+                'end_year': experience['ends_at']['year'] if experience['ends_at'] else None,
+            }
+            for experience in experiences
+        ]

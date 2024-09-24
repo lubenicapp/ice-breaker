@@ -15,7 +15,6 @@ class Company(models.Model):
     linkedin_url = models.URLField()
     name = models.CharField(max_length=127)
     profile_picture_url = models.URLField(null=True)
-    industry = models.CharField(max_length=127, null=True)
     location = models.CharField(max_length=127, null=True)
 
 
