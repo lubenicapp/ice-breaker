@@ -9,7 +9,6 @@ class Person(models.Model):
     country = models.CharField(max_length=127, null=True)
     city = models.CharField(max_length=127, null=True)
     skills = models.JSONField(null=True)
-    birth_date = models.DateField(null=True)
 
 
 class Company(models.Model):

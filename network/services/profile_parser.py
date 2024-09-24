@@ -1,6 +1,8 @@
-class PersonParser:
+from typing import List
+
+class ProfileParser:
     @classmethod
-    def parse(cls, data: dict) -> dict:
+    def extract_profile(cls, data: dict) -> dict:
         return {
             'linkedin_identifier': data['public_identifier'],
             'first_name': data['first_name'],
@@ -9,5 +11,4 @@ class PersonParser:
             'country': data['country_full_name'],
             'city': data['city'],
             'skills': data['skills'],
-            'birth_date': data['birth_date']
         }

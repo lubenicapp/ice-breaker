@@ -1,1 +1,1 @@
-from .person_parser import PersonParser
+from .profile_parser import ProfileParser
