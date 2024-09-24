@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Person(models.Model):
-    linkedin_url = models.URLField()
+    linkedin_identifier = models.URLField()
     first_name = models.CharField(max_length=127)
     last_name = models.CharField(max_length=127)
     profile_picture_url = models.URLField(null=True)
