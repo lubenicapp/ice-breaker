@@ -1,6 +1,7 @@
 from datetime import datetime
 import json
 
+from loguru import logger
 import requests
 
 from django.conf import settings
@@ -21,6 +22,9 @@ class LinkedinScraper:
 
 
     @staticmethod
-    def save_data(data, slug):
-        with open(f'dump/{slug}-{datetime.now().second}.json', 'w') as f:
-            json.dump(data, f, indent=4)
+    def _save_data(data, slug):
+        try:
+            with open(f'dump/{slug}-{datetime.now().second}.json', 'w') as f:
+                json.dump(data, f, indent=4)
+        except Exception as e:
+            logger.error(e)

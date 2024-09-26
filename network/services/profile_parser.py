@@ -34,6 +34,7 @@ class ProfileParser:
                 linkedin_url=company_url,
                 defaults={'name':work_experience['company']['name']},
             )
+
             w = WorkExperience(
                 person=person,
                 company=company,
