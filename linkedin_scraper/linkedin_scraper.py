@@ -17,7 +17,6 @@ class LinkedinScraper:
             headers=cls.HEADERS,
             params={'linkedin_profile_url': linkedin_url}
         )
-        cls.save_data(response.json(), linkedin_url.strip('/').split('/')[-1].split('?')[0])
         return response.json()
 
 
