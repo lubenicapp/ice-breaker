@@ -37,8 +37,6 @@ CORS_ALLOWED_ORIGINS = [
     'https://gregarious-ganache-18e07f.netlify.app'
 ]
 
-CORS_ALLOW_ALL_ORIGINS = True
-
 CORS_ALLOW_HEADERS = list(default_headers) + [
     'Network-Identifier',
 ]
