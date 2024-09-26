@@ -15,6 +15,17 @@ class Person(models.Model):
     skills = models.JSONField(null=True)
     updated_at = models.DateTimeField(auto_now=True)
 
+    def prefixed_id(self):
+        return f'p-{self.id}'
+
+    @property
+    def as_node(self):
+        return {
+            'id': self.prefixed_id(),
+            'img': self.profile_picture_url,
+            'name': f'{self.first_name} {self.last_name}'
+        }
+
 
 class Company(models.Model):
     linkedin_url = models.URLField(null=True)
@@ -22,12 +33,32 @@ class Company(models.Model):
     profile_picture_url = models.URLField(null=True)
     location = models.CharField(max_length=127, null=True)
 
+    def prefixed_id(self):
+        return f'c-{self.id}'
+
+    @property
+    def as_node(self):
+        return {
+            'id': self.prefixed_id(),
+            'img': self.profile_picture_url,
+            'name': f'{self.name}'
+        }
 
 class School(models.Model):
     linkedin_url = models.URLField(null=True)
     name = models.CharField(max_length=127)
     profile_picture_url = models.URLField(null=True)
 
+    def prefixed_id(self):
+        return f's-{self.id}'
+
+    @property
+    def as_node(self):
+        return {
+            'id': self.prefixed_id(),
+            'img': self.profile_picture_url,
+            'name': f'{self.name}'
+        }
 
 class WorkExperience(models.Model):
     person = models.ForeignKey(Person, on_delete=models.CASCADE, related_name='work_experiences')
@@ -36,6 +67,12 @@ class WorkExperience(models.Model):
     start_year = models.PositiveSmallIntegerField(null=True)
     end_year = models.PositiveSmallIntegerField(null=True)
 
+    @property
+    def as_link(self):
+        return {
+            'source': self.person.prefixed_id(),
+            'target': self.company.prefixed_id()
+        }
 
 class EducationExperience(models.Model):
     person = models.ForeignKey(Person, on_delete=models.CASCADE, related_name='education_experiences')
@@ -44,10 +81,17 @@ class EducationExperience(models.Model):
     start_year = models.PositiveSmallIntegerField(null=True)
     end_year = models.PositiveSmallIntegerField(null=True)
 
+    @property
+    def as_link(self):
+        return {
+            'source': self.person.prefixed_id(),
+            'target': self.school.prefixed_id()
+        }
 
 class Network(models.Model):
     slug = models.SlugField(unique=True)
     email = models.EmailField(unique=True)
+    name = models.CharField(max_length=127, null=True)
     credits = models.PositiveSmallIntegerField(default=0)
     persons = models.ManyToManyField(Person, related_name='networks')
     companies = models.ManyToManyField(Company, related_name='networks')

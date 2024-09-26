@@ -20,6 +20,7 @@ class LinkedinScraper:
         cls.save_data(response.json(), linkedin_url.strip('/').split('/')[-1].split('?')[0])
         return response.json()
 
+
     @staticmethod
     def save_data(data, slug):
         with open(f'dump/{slug}-{datetime.now().second}.json', 'w') as f:

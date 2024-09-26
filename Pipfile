@@ -12,6 +12,9 @@ attrs = "*"
 hrid = "*"
 python-decouple = "*"
 requests = "*"
+django-cors-headers = "*"
+mysqlclient = "*"
+gunicorn = "*"
 
 [dev-packages]
 django-debug-toolbar = "*"
