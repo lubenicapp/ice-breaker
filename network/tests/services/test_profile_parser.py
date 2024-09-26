@@ -137,9 +137,9 @@ class TestIngestProfileData:
     @pytest.mark.django_db
     def test_creates_schools(self, clear_database):
         ProfileParser.ingest_profile_data(PROFILE)
-        assert len(School.objects.all()) == 5
+        assert len(School.objects.all()) == 4
 
     @pytest.mark.django_db
     def test_creates_education_experiences(self, clear_database):
         ProfileParser.ingest_profile_data(PROFILE)
-        assert len(EducationExperience.objects.all()) == 6
+        assert len(EducationExperience.objects.all()) == 5

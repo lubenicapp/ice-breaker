@@ -14,6 +14,9 @@ python-decouple = "*"
 requests = "*"
 django-cors-headers = "*"
 gunicorn = "*"
+boto3 = "*"
+django-storages = "*"
+pillow = "*"
 
 [dev-packages]
 django-debug-toolbar = "*"
@@ -23,6 +26,7 @@ mypy = "*"
 pytest-cov = "*"
 pytest-django = "*"
 freezegun = "*"
+ipykernel = "*"
 
 [requires]
 python_version = "3.12"

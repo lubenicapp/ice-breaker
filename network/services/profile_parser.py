@@ -1,5 +1,6 @@
 from typing import List
 from network.models import Person, Company, School, WorkExperience, EducationExperience
+from network.services.aws_s3 import AWSS3
 
 
 class ProfileParser:
@@ -17,10 +18,15 @@ class ProfileParser:
 
     @staticmethod
     def __build_person(data) -> Person:
-        p, _ = Person.objects.update_or_create(
+        p, created = Person.objects.update_or_create(
             linkedin_identifier=data['linkedin_identifier'],
             defaults={**data},
         )
+
+        if created and p.profile_picture_url:
+            p.profile_picture_url = AWSS3.upload_image_from_url(p.profile_picture_url)
+            p.save()
+
         return p
 
     @staticmethod
