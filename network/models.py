@@ -101,6 +101,9 @@ class Network(models.Model):
         if not self.slug:
             h = HRID()
             self.slug = slugify(h.generate())
-            send_mail('', self.slug, None, [self.email])
+            try:
+                send_mail('', self.slug, None, [self.email])
+            except (ConnectionError, Exception):
+                pass
 
         super().save(*args, **kwargs)
