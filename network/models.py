@@ -40,7 +40,7 @@ class Company(models.Model):
     def as_node(self):
         return {
             'id': self.prefixed_id(),
-            'img': self.profile_picture_url,
+            'img': 'https://hookmap.s3.eu-west-1.amazonaws.com/transparent_48x48_green_ball.png',
             'name': f'{self.name}'
         }
 
