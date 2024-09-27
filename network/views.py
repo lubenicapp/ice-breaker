@@ -44,11 +44,11 @@ def graph(request):
         return Response(status=status.HTTP_401_UNAUTHORIZED)
 
 
-    persons = [p.as_node for p in Person.objects.filter(networks=network)]
-    companies = [c.as_node for c in Company.objects.filter(work_experiences__person__in=persons)]
-    schools = [s.as_node for s in School.objects.filter(education_experiences__person__in=persons)]
+    persons = Person.objects.filter(networks=network)
+    companies = Company.objects.filter(work_experiences__person__in=persons)
+    schools = School.objects.filter(education_experiences__person__in=persons)
 
-    nodes = persons + companies + schools
+    nodes = [p.as_node for p in persons] + [c.as_node for c in companies] + [s.as_node for s in schools]
 
     links = (
         [w.as_link for w in WorkExperience.objects.all(person__in=persons)]
