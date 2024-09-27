@@ -34,7 +34,8 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 CORS_ALLOWED_ORIGINS = [
-    'https://gregarious-ganache-18e07f.netlify.app'
+    'https://gregarious-ganache-18e07f.netlify.app',
+    'http://localhost:5173',
 ]
 
 CORS_ALLOW_HEADERS = list(default_headers) + [
