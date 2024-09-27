@@ -43,17 +43,17 @@ def graph(request):
     if not network:
         return Response(status=status.HTTP_401_UNAUTHORIZED)
 
-
-    persons = Person.objects.filter(networks=network)
-    companies = Company.objects.filter(work_experiences__person__in=persons)
-    schools = School.objects.filter(education_experiences__person__in=persons)
+    persons = Person.objects.filter(networks=network).distinct()
+    companies = Company.objects.filter(work_experiences__person__in=persons).distinct()
+    schools = School.objects.filter(education_experiences__person__in=persons).distinct()
 
     nodes = [p.as_node for p in persons] + [c.as_node for c in companies] + [s.as_node for s in schools]
 
     links = (
-        [w.as_link for w in WorkExperience.objects.filter(person__in=persons).filter(company__in=companies)]
-        + [s.as_link for s in EducationExperience.objects.filter(person__in=persons).filter(school__in=schools)]
+        [w.as_link for w in WorkExperience.objects.filter(person__in=persons, company__in=companies)] +
+        [e.as_link for e in EducationExperience.objects.filter(person__in=persons, school__in=schools)]
     )
+
 
     return Response({'nodes': nodes, 'links': links}, status=status.HTTP_200_OK)
 
