@@ -4,6 +4,8 @@ from rest_framework.mixins import CreateModelMixin
 from rest_framework.response import Response
 from rest_framework.viewsets import GenericViewSet
 
+from django.db.models import Count, Q
+
 from network.models import (
     Network,
     Person,
@@ -44,18 +46,53 @@ def graph(request):
         return Response(status=status.HTTP_401_UNAUTHORIZED)
 
     persons = Person.objects.filter(networks=network).distinct()
-    companies = Company.objects.filter(work_experiences__person__in=persons).distinct()
-    schools = School.objects.filter(education_experiences__person__in=persons).distinct()
-
-    nodes = [p.as_node for p in persons] + [c.as_node for c in companies] + [s.as_node for s in schools]
-
-    links = (
-        [w.as_link for w in WorkExperience.objects.filter(person__in=persons, company__in=companies)] +
-        [e.as_link for e in EducationExperience.objects.filter(person__in=persons, school__in=schools)]
+    companies = (
+        Company.objects.filter(work_experiences__person__in=persons)
+        .annotate(
+            num_persons=Count(
+                'work_experiences__person',
+                filter=Q(work_experiences__person__in=persons),
+                distinct=True,
+            )
+        )
+        .filter(num_persons__gte=2)
+        .distinct()
+    )
+    schools = (
+        School.objects.filter(education_experiences__person__in=persons)
+        .annotate(
+            num_persons=Count(
+                'education_experiences__person',
+                filter=Q(education_experiences__person__in=persons),
+                distinct=True,
+            )
+        )
+        .filter(num_persons__gte=2)
+        .distinct()
     )
 
+    nodes = (
+        [p.as_node for p in persons]
+        + [c.as_node for c in companies]
+        + [s.as_node for s in schools]
+    )
 
-    return Response({'nodes': nodes, 'links': links}, status=status.HTTP_200_OK)
+    links = [
+        w.as_link
+        for w in WorkExperience.objects.filter(
+            person__in=persons, company__in=companies
+        )
+    ] + [
+        e.as_link
+        for e in EducationExperience.objects.filter(
+            person__in=persons, school__in=schools
+        )
+    ]
+
+    return Response(
+        {'nodes': nodes, 'links': links}, status=status.HTTP_200_OK
+    )
+
 
 @api_view(['GET', 'POST'])
 def person_view(request):
