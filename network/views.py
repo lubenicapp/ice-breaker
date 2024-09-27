@@ -51,8 +51,8 @@ def graph(request):
     nodes = [p.as_node for p in persons] + [c.as_node for c in companies] + [s.as_node for s in schools]
 
     links = (
-        [w.as_link for w in WorkExperience.objects.all(person__in=persons)]
-        + [s.as_link for s in EducationExperience.objects.all(person__in=persons)]
+        [w.as_link for w in WorkExperience.objects.filter(person__in=persons)]
+        + [s.as_link for s in EducationExperience.objects.filter(person__in=persons)]
     )
 
     return Response({'nodes': nodes, 'links': links}, status=status.HTTP_200_OK)
