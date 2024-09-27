@@ -94,8 +94,6 @@ class Network(models.Model):
     name = models.CharField(max_length=127, null=True)
     credits = models.PositiveSmallIntegerField(default=0)
     persons = models.ManyToManyField(Person, related_name='networks')
-    companies = models.ManyToManyField(Company, related_name='networks')
-    schools = models.ManyToManyField(School, related_name='networks')
 
     def save(self, *args, **kwargs):
         if not self.slug:
